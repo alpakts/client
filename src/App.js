@@ -18,11 +18,11 @@ import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 
 function App() {
-  const[isAuthenticated,setIsAuthenticated]=useState(null);
+  const[isAuthenticated,setIsAuthenticated]=useState(localStorage.getItem("token"));
   var user=useSelector(state=>state.user);
   useEffect(()=>{
     setIsAuthenticated(localStorage.getItem("token"))
-  },[user])
+  },[])
   // user.token; // Örnek olarak false olarak ayarlandı, gerçek uygulamada gerekli doğrulama yapılmalıdır
   return (
     <div className="App">
