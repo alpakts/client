@@ -1,3 +1,4 @@
+# react client for authorization and CRUD operations
 # for run the application 
 1. open powershell
 2. go to the project path
