@@ -4,7 +4,7 @@
 2. go to the project path
 3. run 'npm install' command
 4. run 'npm start' command 
-> project is running on localhost:4000
+> project is running on localhost:4000(if its doesnt work run 'npm install nodemon' command
 
 # For test
 username : admin
